@@ -3,15 +3,15 @@
   <remote name="peyo" fetch="ssh://git@github.com/peyo-hd"/>
   
   <remove-project name="platform/external/mesa3d"/>
-  <project path="external/mesa3d" name="external_mesa3d" revision="pie" remote="peyo"/>
+  <project path="external/mesa3d" name="external_mesa3d" revision="pie2" remote="peyo"/>
   <remove-project name="platform/external/drm_gralloc"/>
-  <project path="external/drm_gralloc" name="external_drm_gralloc" revision="pie" remote="peyo"/>
+  <project path="external/drm_gralloc" name="external_drm_gralloc" revision="pie2" remote="peyo"/>
   <remove-project name="platform/external/libdrm"/>
   <project path="external/libdrm" name="platform/external/libdrm" revision="pie-cuttlefish-testing"/>
 
   <project path="kernel/rpi" name="kernel_rpi" revision="arpi-4.19.y" remote="peyo"/>
-  <project path="hardware/rpi" name="hardware_rpi" revision="pie" remote="peyo"/>
-  <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="pie" remote="peyo"/>
+  <project path="hardware/rpi" name="hardware_rpi" revision="pie2" remote="peyo"/>
+  <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="pie2" remote="peyo"/>
 
   <project path="vendor/peyo/RpLauncher" name="RpLauncher" revision="pie" remote="peyo"/>
 
